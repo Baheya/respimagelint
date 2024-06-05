@@ -2,6 +2,7 @@ import 'whatwg-fetch';
 import collector from './collector/index';
 import setStyles from './util/setStyles';
 
+console.log('test');
 const script = document.getElementById('respimagelint-script');
 const scriptBase = script ? script.src.split('?')[0].replace(/[^/]+$/, '') : 'https://ausi.github.io/respimagelint/';
 let iframe;
